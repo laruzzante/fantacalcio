@@ -27,26 +27,3 @@ print("--- Premere INVIO per estrarre un calciatore ---")
 for index, row in random_df.iterrows():
     input()
     print(row.to_frame().T)
-
-
-# with open('Quotazioni_Fantacalcio_Ruoli_Mantra.xlsx') as f:
-#     print(f"\nFile listone: {f}\n")
-#     lines = f.readlines()
-#     header1 = lines.pop(1) # Titolo file
-#     header2 = lines.pop(2) # Nomi colonne
-
-# print(lines)
-
-# print("Premi INVIO per estrarre un calciatore...\n")
-# print(f'{header2}')
-# #print(f"ID\tRuolo\tNome\tSquadra\tQuotazione")
-
-# i=0
-# size=len(lines)
-
-# while len(lines) > 0:
-#     i += 1
-#     input()
-#     j = random.choice(range(len(lines)))
-#     print(f"{lines[j].strip()} ------- {i}/{size}")
-#     lines.pop(j)
