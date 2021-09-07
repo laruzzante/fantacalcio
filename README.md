@@ -18,7 +18,7 @@ e salvarla nella cartella corrente (fantacalcio).
 Attivare i diritti di esecuzione su Linux con:
 
 ```bash
-chmod +x ./chiamata_random.py
+chmod +x chiamata_random.py
 ```
 Lanciare il programma con:
 
